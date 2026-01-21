@@ -14,8 +14,8 @@ This project uses a local PostgreSQL database configured via environment variabl
 
 - `TYPEORM_DB_HOST` – database host (e.g. `localhost`)
 - `TYPEORM_DB_PORT` – database port (e.g. `5432`)
-- `TYPEORM_DB_USERNAME` – database user (e.g. `ADMIN`)
-- `TYPEORM_DB_PASSWORD` – database password (e.g. `groupaAdminPass*+`)
+- `TYPEORM_DB_USERNAME` – database user (e.g. `USER`)
+- `TYPEORM_DB_PASSWORD` – database password (e.g. `PASSWORD`)
 - `TYPEORM_DB_NAME` – database name (e.g. `GroupaERP`)
 - `TYPEORM_DB_SSL` – whether to use SSL (`true` | `false`)
 - `TYPEORM_DB_LOGGING` – enable TypeORM logging (`true` | `false`)
@@ -26,8 +26,8 @@ You can use `.env.example` as a template:
 ```env
 TYPEORM_DB_HOST=localhost
 TYPEORM_DB_PORT=5432
-TYPEORM_DB_USERNAME=ADMIN
-TYPEORM_DB_PASSWORD=groupaAdminPass*+
+TYPEORM_DB_USERNAME=USER
+TYPEORM_DB_PASSWORD=PASSWORD
 TYPEORM_DB_NAME=GroupaERP
 TYPEORM_DB_SSL=false
 TYPEORM_DB_LOGGING=true
